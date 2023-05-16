@@ -26,7 +26,7 @@ class Point{
         friend Point moveTowards(Point origin, Point target, double distance);
         double getX();
         double getY();
-        // for check_eq
+        // for check_eq in Test
         bool operator==(const Point& other) const;
 
 };
@@ -126,4 +126,4 @@ class Team2: public Team{
 
 
 
-#endif //COWBOY_VS_NINJA_A_TEAM_HPP
+#endif
